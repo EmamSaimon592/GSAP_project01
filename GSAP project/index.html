@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP PROJECT</title>
+  <!-- link css is here -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- create a parallex cover img -->
+  <div class="cover-image"></div>
+  
+  <!-- content-wrapper -->
+   <div class="contant-wrapper">
+        
+      <!-- create a header -->
+       <header id="site-header" class="is--nav">
+          <!-- create a nav with space-between -->
+           <nav class="site-nav">
+            <ul>
+                 <li><a href="#">Shop</a></li>
+                 <li><a href="#">Article</a></li>
+                 <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- GSAP use hoyeche -->
+                <div class="site-title" id="title">
+                  <h1>MaximizeProfit</h1>
+                </div>
+                <div class="copy-right">
+                  <p>&copy; 2024 All Rights reserved</p>
+                </div>
+                
+           </nav>
+
+
+       </header>
+
+       <!-- create a main section -->
+        <main id="site-main">
+
+              <!-- discover section -->
+               <section class="discover" id="discover">
+                    <div class="container">
+                      <div class="slide">
+                         <h1 class="slide1">Discover</h1>
+                      </div>
+                      <div class="slide">
+                         <h1 class="slide2 lightWidth">LatestTrend</h1>
+                      </div>
+                      <div class="slide">
+                         <h1 class="slide3">Minimal</h1>
+                      </div>
+                      <div class="slide">
+                         <h1 class="slide4">effort</h1>
+                      </div>
+                    </div>
+               </section>
+
+               <!-- image section  -->
+                <section class="image-section" id="image-section">
+                  <div class="container">
+                    <div class="cover">
+                      <img src="assects/canada.jpg" alt="" id="img_section2">
+                    </div>
+                  </div>
+                </section>
+
+                <!-- tag section -->
+                 <section class="tag-section" id="tag-section">
+                  <div class="container">
+                    <span>Home</span>
+                    <span>Travel</span>
+                    <span>Furniture</span>
+                    <span>Book</span>
+                    <span>Office</span>
+                    <span>Kitchen</span>
+                    <span>Lighting</span>
+                    <span>Fashion</span>
+                    <span>Bath & Bed</span>
+                    <span>Tech</span>
+                    <span>Decor</span>
+                    <span>More</span>
+                  </div>
+                 </section>
+
+                 <!-- furniture section -->
+                  <section class="furniture-section" id="furniture-section">
+                    <div class="container">
+                      <!-- furniture-title -->
+                      <div class="furniture-title">
+                        <h2>Furniture</h2>
+                      </div>
+
+                        <!-- furniture-images -->
+                         <div class="grid-wrapper">
+                          <div class="grid-items">
+                             <div class="box">
+                              <img src="assects/img01.jpg" alt="furniture1">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img02.jpg" alt="furniture2">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img03.jpg" alt="furniture3">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img04.jpg" alt="furniture4">
+                             </div>
+                          </div>
+                         </div>
+
+                         <!-- decor images -->
+                           <div class="grid-wrapper">
+                          <div class="grid-items">
+                             <div class="box">
+                              <img src="assects/img05.jpg" alt="furniture1">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img06.jpg" alt="furniture2">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img07.jpg" alt="furniture3">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img08.jpg" alt="furniture4">
+                             </div>
+                          </div>
+                         </div>
+
+                         <!-- office images -->
+                           <div class="grid-wrapper">
+                          <div class="grid-items">
+                             <div class="box">
+                              <img src="assects/img09.jpg" alt="furniture1">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img10.jpg" alt="furniture2">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img11.jpg" alt="furniture3">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img12.jpg" alt="furniture4">
+                             </div>
+                          </div>
+                         </div>
+
+                         <!-- tech images -->
+                           <div class="grid-wrapper">
+                          <div class="grid-items">
+                             <div class="box">
+                              <img src="assects/img06.jpg" alt="furniture1">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img08.jpg" alt="furniture2">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img05.jpg" alt="furniture3">
+                             </div>
+                             <div class="box">
+                              <img src="assects/img01.jpg" alt="furniture4">
+                             </div>
+                          </div>
+                         </div>
+
+
+                    </div>
+                  </section>
+
+        </main>
+
+   </div>
+
+
+
+ <!-- GSAP CDN -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<!-- ScrollTrigger cdn gsap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- script file link -->
+<script src="script.js"></script> 
+</body>
+</html>
